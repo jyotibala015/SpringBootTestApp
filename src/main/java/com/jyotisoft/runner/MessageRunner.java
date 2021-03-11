@@ -9,7 +9,7 @@ public class MessageRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		int i = 10;
-		System.out.println("HELLO..");
+		System.out.println("HELLO.."+i);
 	}
 
 }
